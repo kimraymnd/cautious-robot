@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "37BA763E4D174339E9432F27FFBC2B53A017FEBF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D41287FAF4BF047D393D5273E2838D7445D5A0D7" : 9223372036854775807,
+    "37BA763E4D174339E9432F27FFBC2B53A017FEBF" : 9223372036854775807,
+    "D3B4EF04B032598BE60D3E763D9899DE35535DDA" : 9223372036854775807,
+    "F91D28A7E95E8F0399C74826E40B332B63E48E1C" : 9223372036854775807,
+    "5CC3662DE7B154BFBD52EC7DD2FAEF03F2CD148F" : 9223372036854775807,
+    "9617B9511D814F90AA4C1C70250E86D35920A596" : 9223372036854775807,
+    "596B27F86601286DE544497344698D054BB87034" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C8B5171E-809F-40AC-B56F-A6B38120D9A7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D41287FAF4BF047D393D5273E2838D7445D5A0D7" : "nanogui\/",
+    "37BA763E4D174339E9432F27FFBC2B53A017FEBF" : "cautious-robot\/",
+    "D3B4EF04B032598BE60D3E763D9899DE35535DDA" : "nanogui\/ext\/pybind11\/tools\/clang\/",
+    "F91D28A7E95E8F0399C74826E40B332B63E48E1C" : "nanogui\/ext\/glfw\/",
+    "5CC3662DE7B154BFBD52EC7DD2FAEF03F2CD148F" : "nanogui\/ext\/nanovg\/",
+    "9617B9511D814F90AA4C1C70250E86D35920A596" : "nanogui\/ext\/pybind11\/",
+    "596B27F86601286DE544497344698D054BB87034" : "nanogui\/ext\/eigen\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "constraintdynamics",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "constraintdynamics\/constraintdynamics.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/raymnd\/cautious-robot.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37BA763E4D174339E9432F27FFBC2B53A017FEBF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/libigl\/eigen.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "596B27F86601286DE544497344698D054BB87034"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wjakob\/nanovg",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5CC3662DE7B154BFBD52EC7DD2FAEF03F2CD148F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pybind\/pybind11",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9617B9511D814F90AA4C1C70250E86D35920A596"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wjakob\/clang-cindex-python3",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3B4EF04B032598BE60D3E763D9899DE35535DDA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wjakob\/nanogui.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D41287FAF4BF047D393D5273E2838D7445D5A0D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wjakob\/glfw",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F91D28A7E95E8F0399C74826E40B332B63E48E1C"
+    }
+  ]
+}
