@@ -48,6 +48,7 @@ bool DRAG = false;
 bool GRAV = false;
 bool MASS = false;
 bool VEL = false;
+bool FRIC = false;
 double xCur = 0, yCur = 0;
 double xprev = 0, yprev = 0;
 
@@ -56,6 +57,7 @@ GLfloat beadscale = 120;
 glm::vec2 offset = glm::vec2(SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
 float gravity = -9.8;
 float mass = 1;
+float friction = 1.0f;
 
 int main( void )
 {
@@ -149,7 +151,7 @@ int main( void )
                 }
                 if (VEL) {
                     float length = glm::length(glm::vec2(xprev, yprev) - glm::vec2(xCur, yCur));
-                    drawRing(beadposition.x, beadposition.y, 0, length, 20);
+                    drawRing(beadposition.x, beadposition.y, 0, length, 36);
                 }
             }
             
@@ -176,8 +178,7 @@ int main( void )
 void computeBeadPosition() {
     
     glm::vec2 grav = glm::vec2(0, gravity);
-    float friction = 0.8;
-    glm::vec2 forces = grav;
+    glm::vec2 forces = grav * friction;
     
     glm::vec2 tangent = glm::vec2(-bead.position().y, bead.position().x);
     
@@ -208,7 +209,21 @@ void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mode
         }
         
     }
-    
+    if (key == GLFW_KEY_F) {
+        switch (action) {
+            case GLFW_REPEAT:
+                FRIC = true;
+                break;
+                
+            case GLFW_RELEASE:
+                FRIC = false;
+                std::cout << "coeffienct of damping is: " << friction << std::endl;
+                
+            default:
+                FRIC = false;
+                break;
+        }
+    }
     if (key == GLFW_KEY_G) {
         switch (action) {
             case GLFW_REPEAT:
@@ -343,6 +358,10 @@ void scrollCallback(GLFWwindow* window, double xOffset, double yOffset) {
         mass -= yOffset/2;
         bead.setMass(mass);
         std::cout << "bead mass: " <<bead.mass() << std::endl;
+    }
+    if (FRIC) {
+        friction -= yOffset/10;
+        std::cout << "friction: " <<friction << std::endl;
     }
 }
 
