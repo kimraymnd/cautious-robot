@@ -12,4 +12,4 @@ If you hold down `m` and scroll, you can increase and decrease the bead's mass.
 
 Pressing `o` should output in the console a brief summary of the bead's current state.
 
-![A Bead on a Wire](https://github.com/raymnd/images/image.png)
+![A Bead on a Wire](/images/image.png?raw=true "A Bead on a Wire")
